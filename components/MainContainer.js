@@ -51,6 +51,7 @@ export default function App() {
       <View style={styles.headerContainer}>
         <Text style={[styles.title, darkMode && styles.darkText]}>Course Grade Calculator</Text>
         <View style={styles.switchContainer}>
+          <Text style={[styles.switchLabel, darkMode && styles.darkText]}>Dark Mode</Text>
           <Switch value={darkMode} onValueChange={() => setDarkMode(!darkMode)} />
         </View>
       </View>
@@ -88,7 +89,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1, 
     padding: 20, 
     backgroundColor: '#f0f0f0' 
   },
@@ -101,9 +102,17 @@ const styles = StyleSheet.create({
     marginBottom: 20 
   },
   switchContainer: { 
+    flexDirection: 'row', 
+    alignItems: 'center', 
     alignSelf: 'flex-start', 
     marginLeft: 20, 
     marginTop: 10 
+  },
+  switchLabel: { 
+    fontSize: 18, 
+    marginRight: 10, 
+    color: '#007BFF', 
+    fontWeight: 'bold' 
   },
   title: { 
     fontSize: 24, 
@@ -120,7 +129,7 @@ const styles = StyleSheet.create({
     padding: 10, 
     marginBottom: 10, 
     borderRadius: 5, 
-    backgroundColor: '#fff',
+    backgroundColor: '#fff', 
     borderColor: '#007BFF' 
   },
   darkInput: { 

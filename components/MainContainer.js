@@ -87,16 +87,68 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, backgroundColor: '#f0f0f0' },
-  darkContainer: { backgroundColor: '#121212' },
-  headerContainer: { paddingTop: 30, alignItems: 'center', marginBottom: 20 },
-  switchContainer: { alignSelf: 'flex-start', marginLeft: 20, marginTop: 10 },
-  title: { fontSize: 24, fontWeight: 'bold', textAlign: 'center', marginBottom: 10, color: '#007BFF' },
-  darkText: { color: '#fff' },
-  input: { borderWidth: 1, padding: 10, marginBottom: 10, borderRadius: 5, backgroundColor: '#fff', borderColor: '#007BFF' },
-  darkInput: { backgroundColor: '#333', color: '#fff', borderColor: '#BB86FC' },
-  item: { fontSize: 18, marginVertical: 5, color: '#333' },
-  calculateButton: { backgroundColor: '#007BFF', padding: 10, marginTop: 10, borderRadius: 5, alignItems: 'center' },
-  clearButton: { backgroundColor: '#FF3B30', padding: 10, marginTop: 10, borderRadius: 5, alignItems: 'center' },
-  buttonText: { color: '#fff', fontSize: 18 },
+  container: {
+    flex: 1,
+    padding: 20, 
+    backgroundColor: '#f0f0f0' 
+  },
+  darkContainer: { 
+    backgroundColor: '#121212' 
+  },
+  headerContainer: { 
+    paddingTop: 30, 
+    alignItems: 'center', 
+    marginBottom: 20 
+  },
+  switchContainer: { 
+    alignSelf: 'flex-start', 
+    marginLeft: 20, 
+    marginTop: 10 
+  },
+  title: { 
+    fontSize: 24, 
+    fontWeight: 'bold', 
+    textAlign: 'center', 
+    marginBottom: 10, 
+    color: '#007BFF' 
+  },
+  darkText: { 
+    color: '#fff' 
+  },
+  input: { 
+    borderWidth: 1, 
+    padding: 10, 
+    marginBottom: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    borderColor: '#007BFF' 
+  },
+  darkInput: { 
+    backgroundColor: '#333', 
+    color: '#fff', 
+    borderColor: '#BB86FC' 
+  },
+  item: { 
+    fontSize: 18, 
+    marginVertical: 5, 
+    color: '#333' 
+  },
+  calculateButton: { 
+    backgroundColor: '#007BFF', 
+    padding: 10, 
+    marginTop: 10, 
+    borderRadius: 5, 
+    alignItems: 'center' 
+  },
+  clearButton: { 
+    backgroundColor: '#FF3B30', 
+    padding: 10, 
+    marginTop: 10, 
+    borderRadius: 5, 
+    alignItems: 'center' 
+  },
+  buttonText: { 
+    color: '#fff', 
+    fontSize: 18 
+  },
 });

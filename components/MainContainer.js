@@ -49,7 +49,7 @@ export default function App() {
   return (
     <View style={[styles.container, darkMode && styles.darkContainer]}>
       <View style={styles.headerContainer}>
-        <Text style={[styles.title, darkMode && styles.darkText]}>Course Grade Calculator</Text>
+        <Text style={[styles.title, darkMode && styles.darkText]}>Assignment Grade Calculator</Text>
         <View style={styles.switchContainer}>
           <Text style={[styles.switchLabel, darkMode && styles.darkText]}>Dark Mode</Text>
           <Switch value={darkMode} onValueChange={() => setDarkMode(!darkMode)} />
@@ -117,8 +117,9 @@ const styles = StyleSheet.create({
   title: { 
     fontSize: 24, 
     fontWeight: 'bold', 
-    textAlign: 'center', 
-    marginBottom: 10, 
+    textAlign: 'center',
+    marginTop: 20, 
+    marginBottom: 12, 
     color: '#007BFF' 
   },
   darkText: { 
